@@ -62,7 +62,7 @@ public class PhraseSolver
       }
       System.out.println();
     }
-    System.out.println("You guessed it! Congrats!");
+    System.out.println("You guessed it! Congrats! The winner is " + (player1Turn ? player1.getName() : player2.getName()));
     input.close();
   }
 }
