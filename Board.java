@@ -15,7 +15,6 @@ public class  Board
   /* your code here - constructor(s) */ 
   public Board() {
     phrase = loadPhrase();
-    System.out.println("Phrase: " + phrase); //temp test code
   }
   
   /* your code here - accessor(s) */
